@@ -1,0 +1,1 @@
+This project aims to learn in-depth about HTML.
