@@ -1,8 +1,32 @@
-h1 {
+body {
+    background-color: gray;
+}
+
+/* Menu bar */
+.menu-bar {
+    background-color: rgb(33, 35, 53);
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+.menu-bar img {
+    position: relative;
+    height: 70px;
+    object-fit: cover;
+}
+
+/* Main banner */
+.title-main {
     font-size: 100px;
     font-family: "Uncial Antiqua", Arial, Helvetica, sans-serif;
     text-shadow: 0px 0px 10px black;
-    
+}
+
+.catchphrase {
+    font-family: serif;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px black;
 }
 
 .heading-container img {
@@ -14,6 +38,7 @@ h1 {
 
 .heading-container {
     position: relative;
+    padding-bottom: 0px;
 }
 
 .title-container {
@@ -23,4 +48,31 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* Links section */
+.links-container {
+    background-color: gainsboro;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.links-container h3 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color:rgb(131, 74, 74)
+}
+
+.recipes a {
+    font-size: 25px;
+    color: darkslategray;
+    text-decoration: none;
+}
+
+.recipes a:hover {
+    background: rgba(29, 18, 18, 0.918);
+    color: wheat;
 }
