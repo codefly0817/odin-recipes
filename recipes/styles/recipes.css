@@ -1,0 +1,58 @@
+/* Global */
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    background-color: white;
+}
+
+/* Banner section */
+.heading-container h1 {
+    font-family: sans-serif;
+    font-size: 70px;
+    color: rgb(252, 99, 61);
+    margin-bottom: -20px;
+}
+
+.heading-container h2 {
+    color: rgb(41, 70, 70);
+}
+
+.heading-container img {
+    height: 700px;
+    width: auto;
+    text-align: center;
+}
+
+.heading-container p {
+    font-size: 16px;
+    color: rgba(143, 142, 141, 0.959);
+    margin-top: -20px;
+}
+
+/* Ingredients and Steps Section */
+.content-container {
+    background-color:rgb(252, 99, 61);
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px;
+    line-height: 30px;
+}
+
+/* Back link Section */
+.back-container {
+    background-color: rgba(143, 142, 141, 0.959);
+    text-align: center;
+}
+
+.back-container a {
+    font-size: 20px;
+    font-family: Arial Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.back-container a:hover {
+    color: white;
+}
+
